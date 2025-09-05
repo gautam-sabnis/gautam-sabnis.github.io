@@ -13,16 +13,17 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false # includes a list of news items
+  enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-Hi! Welcome to my website! 
+Hi! Welcome to my website!
 
-I use statistical science to answer research questions related to biological science. My doctoral and postdoctoral training have equipped me with a strong foundation in high-dimensional statistics, probabilistic modeling, and statistical machine learning, enabling me to extract meaningful biological insights from large multimodal datasets. During my PhD, I focused on covariance estimation in high-dimensional latent generative models, developing scalable probabilistic factor modeling framework that leverages distributed computing. In my postdoctoral work, I developed a quasi-Bayesian framework for variable selection in high-dimensional instrumental multivariable regression models with broad applicability to causal inference and statistical genetics. At The Jackson Laboratory (JAX), I apply statistical data science and machine learning to address biological questions in behavioral genetics, aging, and neuropsychiatric disorders.
+I apply statistical science to tackle research questions in biological sciences. My doctoral and postdoctoral training have given me a solid foundation in high-dimensional statistics, probabilistic modeling, and statistical machine learning, empowering me to uncover meaningful biological insights from large, multimodal datasets. During my PhD, I focused on covariance estimation within high-dimensional latent generative models, developing a scalable probabilistic factor modeling framework that leverages distributed computing. In my postdoctoral work, I developed a quasi-Bayesian framework for variable selection in high-dimensional instrumental multivariable regression models, with broad applications in causal inference and statistical genetics. At The Jackson Laboratory (JAX), I apply statistical data science and machine learning to address complex biological questions in behavioral genetics, aging, and neuropsychiatric disorders.
 
+Outside of work, I love immersing myself in carefully curated movies and music and enjoy playing soccer, chess, and poker—in that order.
