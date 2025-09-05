@@ -16,20 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -398,18 +384,18 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-on-machine-vision-based-frailty-assessment-for-genetically-diverse-mice-has-been-accepted-in-geroscience",
+            },},{id: "news-our-paper-on-machine-vision-based-frailty-assessment-for-genetically-diverse-mice-has-been-published-in-geroscience",
           title: 'Our paper on Machine vision based frailty assessment for genetically diverse mice has...',
-          description: "",
-          section: "News",},{id: "news-our-paper-on-visual-detection-of-seizures-in-mice-using-supervised-machine-learning-has-been-accepted-in-cell-reports-methods",
-          title: 'Our paper on Visual detection of seizures in mice using supervised machine learning...',
           description: "",
           section: "News",},{id: "news-lightning-talk-award-winner",
           title: 'Lightning Talk Award Winner',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "projects-project-1",
+            },},{id: "news-our-paper-on-visual-detection-of-seizures-in-mice-using-supervised-machine-learning-has-been-accepted-in-cell-reports-methods",
+          title: 'Our paper on Visual detection of seizures in mice using supervised machine learning...',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
@@ -481,13 +467,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://orcid.org/0000-0002-9985-7463", "_blank");
-        },
-      },{
-        id: 'social-contact_note',
-        title: 'Contact_note',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
         },
       },{
       id: 'light-theme',
