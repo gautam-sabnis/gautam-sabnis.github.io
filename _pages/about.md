@@ -26,6 +26,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+Hi! Welcome! My work involves developing and utilizing methodological and computational aspects of multivariate statistics and machine learning. I enjoy the interdisciplinary nature of statistics and the opportunity to collaborate with domain experts on behavioral, genetic, and genomic datasets. As a computational scientist at JAX, I contribute to data-driven scientific discovery by drawing accurate and interpretable inferences and predictions from high-dimensional and big data.
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
