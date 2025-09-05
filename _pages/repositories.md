@@ -1,47 +1,60 @@
 ---
 layout: page
-permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+permalink: /code/
+title: code
 nav: true
 nav_order: 4
 ---
 
-{% if site.data.repositories.github_users %}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software</title>
+  <style>
+    .software-entry {
+      margin-bottom: 30px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+    }
 
-## GitHub users
+    .software-entry h3 {
+      margin-top: 0;
+    }
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
+    .software-entry p {
+      margin: 10px 0;
+      font-size: 14px;
+    }
+
+    .software-entry .badges {
+      display: flex;
+      flex-wrap: wrap; /* Ensures badges wrap if they don't fit in one row */
+      gap: 10px; /* Adds space between badges */
+    }
+
+    .software-entry .badges a {
+      text-decoration: none; /* Removes underline from links */
+    }
+
+    .software-entry .badges img {
+      vertical-align: middle;
+      height: 20px; /* Uniform height for all badges */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="software-entry">
+    <h3><a href="https://github.com/KumarLabJax/ptz-seizure-supervised" target="_blank">casebase</a></h3>
+    <p>
+      <a href="https://www.biorxiv.org/content/10.1101/2024.05.29.596520v1" target="_blank">
+        Journal Article: Visual detection of seizures in mice using supervised machine learning
+      </a>
+    </p>
+    <p>
+    Data and scripts for reproducing results in the seizure manuscript. To appear in Cell Reports Methods (2025). 
+    </p>
 </div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
+</body>
