@@ -6,7 +6,7 @@ subtitle: Statistician, Researcher, Data Scientist
 
 profile:
   align: right
-  image: me2019.jpg
+  image: me2019.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>600 Main Street</p>
