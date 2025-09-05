@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-<p> See my <a href="https://scholar.google.ca/citations?user=9XJum2AAAAAJ&hl=en"><font color="blue">Google Scholar page</font></a> for a complete and up-to-date list.</p>
+<p> See my <a href="https://scholar.google.com/citations?user=21uXAWEAAAAJ&hl=en"><font color="blue">Google Scholar page</font></a> for a complete and up-to-date list.</p>
 
 <!-- _pages/publications.md -->
 

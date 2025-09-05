@@ -47,7 +47,7 @@ nav_order: 4
 
 <body>
   <div class="software-entry">
-    <h3><a href="https://github.com/KumarLabJax/ptz-seizure-supervised" target="_blank">casebase</a></h3>
+    <h3><a href="https://github.com/KumarLabJax/ptz-seizure-supervised" target="_blank">seizure-supervised</a></h3>
     <p>
       <a href="https://www.biorxiv.org/content/10.1101/2024.05.29.596520v1" target="_blank">
         Journal Article: Visual detection of seizures in mice using supervised machine learning
