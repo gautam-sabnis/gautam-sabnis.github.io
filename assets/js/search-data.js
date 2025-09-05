@@ -44,13 +44,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
         },{id: "nav-people",
           title: "people",
           description: "members of the lab or group",
@@ -58,21 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -440,18 +419,18 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-our-paper-on-machine-vision-based-frailty-assessment-for-genetically-diverse-mice-has-been-accepted-in-geroscience",
+          title: 'Our paper on Machine vision based frailty assessment for genetically diverse mice has...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-paper-on-visual-detection-of-seizures-in-mice-using-supervised-machine-learning-has-been-accepted-in-cell-reports-methods",
+          title: 'Our paper on Visual detection of seizures in mice using supervised machine learning...',
+          description: "",
+          section: "News",},{id: "news-lightning-talk-award-winner",
+          title: 'Lightning Talk Award Winner',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "projects-project-1",
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
@@ -497,39 +476,263 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
-        id: 'social-email',
-        title: 'email',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("https://github.com/gautam-sabnis", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-gitlab',
+        title: 'GitLab',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://gitlab.com/", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-x',
+        title: 'X',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://twitter.com/", "_blank");
+        },
+      },{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-mastodon',
+        title: 'Mastodon',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/gautam-sabnis", "_blank");
+        },
+      },{
+        id: 'social-telegram',
+        title: 'telegram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://telegram.me/", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=21uXAWEAAAAJ", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-semanticscholar',
+        title: 'Semantic Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://www.semanticscholar.org/author/", "_blank");
+        },
+      },{
+        id: 'social-whatsapp',
+        title: 'whatsapp',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://wa.me/", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/", "_blank");
+        },
+      },{
+        id: 'social-medium',
+        title: 'Medium',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://medium.com/@", "_blank");
+        },
+      },{
+        id: 'social-quora',
+        title: 'Quora',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.quora.com/profile/", "_blank");
+        },
+      },{
+        id: 'social-publons',
+        title: 'Publons',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://publons.com/a//", "_blank");
+        },
+      },{
+        id: 'social-lattes',
+        title: 'Lattes',
+        section: 'Socials',
+        handler: () => {
+          window.open("http://lattes.cnpq.br/", "_blank");
+        },
+      },{
+        id: 'social-osf',
+        title: 'Open Science Framework',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://osf.io//", "_blank");
+        },
+      },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile//", "_blank");
+        },
+      },{
+        id: 'social-scopus',
+        title: 'Scopus',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.scopus.com/authid/detail.uri?authorId=", "_blank");
+        },
+      },{
+        id: 'social-blogger',
+        title: 'Blogger',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-work',
+        title: 'Work',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-keybase',
+        title: 'Keybase',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://keybase.io/", "_blank");
+        },
+      },{
+        id: 'social-wikidata',
+        title: 'Wikidata',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.wikidata.org/wiki/", "_blank");
+        },
+      },{
+        id: 'social-wikipedia',
+        title: 'Wikipedia',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://wikipedia.org/wiki/User:", "_blank");
+        },
+      },{
+        id: 'social-dblp',
+        title: 'DBLP',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-stackoverflow',
+        title: 'Stackoverflow',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://stackoverflow.com/users/", "_blank");
+        },
+      },{
+        id: 'social-kaggle',
+        title: 'Kaggle',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.kaggle.com/", "_blank");
+        },
+      },{
+        id: 'social-lastfm',
+        title: 'Last FM',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.last.fm/user/", "_blank");
+        },
+      },{
+        id: 'social-spotify',
+        title: 'Spotify',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://open.spotify.com/user/", "_blank");
+        },
+      },{
+        id: 'social-pinterest',
+        title: 'Pinterest',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.pinterest.com/", "_blank");
+        },
+      },{
+        id: 'social-unsplash',
+        title: 'Unsplash',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://unsplash.com/@", "_blank");
+        },
+      },{
+        id: 'social-instagram',
+        title: 'Instagram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://instagram.com/", "_blank");
+        },
+      },{
+        id: 'social-facebook',
+        title: 'Facebook',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://facebook.com/", "_blank");
+        },
+      },{
+        id: 'social-youtube',
+        title: 'YouTube',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://youtube.com/@", "_blank");
+        },
+      },{
+        id: 'social-discord',
+        title: 'Discord',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://discord.com/users/", "_blank");
+        },
+      },{
+        id: 'social-zotero',
+        title: 'Zotero',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.zotero.org/", "_blank");
+        },
+      },{
+        id: 'social-wechat_qr',
+        title: 'Wechat_qr',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-contact_note',
+        title: 'Contact_note',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
         },
       },{
       id: 'light-theme',
