@@ -54,7 +54,40 @@ nav_order: 4
       </a>
     </p>
     <p>
-    Data and scripts for reproducing results in the seizure manuscript. To appear in Cell Reports Methods (2025). 
+    Data and scripts for reproducing results in the Cell Reports Methods manuscript.
+    </p>
+</div>
+  <div class="software-entry">
+    <h3><a href="https://github.com/KumarLabJax/DO-vFI-modeling" target="_blank">DO-vFI</a></h3>
+    <p>
+      <a href="https://link.springer.com/article/10.1007/s11357-025-01583-z" target="_blank">
+        Journal Article: Machine vision-based frailty assessment for genetically diverse mice
+      </a>
+    </p>
+    <p>
+    Data and scripts for reproducing results in the GeroScience manuscript.
+    </p>
+</div>
+  <div class="software-entry">
+    <h3><a href="https://github.com/KumarLabJax/visual-mouse-weight" target="_blank">visual-mouse-weight</a></h3>
+    <p>
+      <a href="https://www.cell.com/patterns/fulltext/S2666-3899(24)00181-8" target="_blank">
+        Journal Article: Highly accurate and precise determination of mouse mass using computer vision
+      </a>
+    </p>
+    <p>
+    Data and scripts for reproducing results in the Cell Patterns manuscript.
+    </p>
+</div>
+  <div class="software-entry">
+    <h3><a href="https://github.com/KumarLabJax/vFI-modeling" target="_blank">B6-vFI</a></h3>
+    <p>
+      <a href="https://www.nature.com/articles/s43587-022-00266-0" target="_blank">
+        Journal Article: A machine-vision-based frailty index for mice
+      </a>
+    </p>
+    <p>
+    Data and scripts for reproducing results in the Nature Aging manuscript.
     </p>
 </div>
 </body>
