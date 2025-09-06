@@ -16,7 +16,7 @@ nav_order: 4
       padding: 15px;
       border: 1px solid #ddd;
       border-radius: 8px;
-      background-color: #f9f9f9;
+      background-color: #000000ff;
     }
 
     .software-entry h3 {
