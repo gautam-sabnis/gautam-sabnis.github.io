@@ -90,15 +90,4 @@ nav_order: 4
     Data and scripts for reproducing results in the Nature Aging manuscript.
     </p>
 </div>
-  <div class="software-entry">
-    <h3><a href="https://github.com/gautam-sabnis/kompgait" target="_blank">kompgait</a></h3>
-    <p>
-      <a href="" target="_blank">
-        Preprint available upon request: A high‑throughput preclinical assay for gait and posture deficits in the laboratory mouse using machine vision
-      </a>
-    </p>
-    <p>
-    Data and scripts for reproducing results in the preprint.
-    </p>
-</div>
 </body>
