@@ -6,7 +6,7 @@ subtitle: Statistician, Researcher, Data Scientist
 
 profile:
   align: right
-  image: me2019.jpeg
+  image: me2024.jpg
   image_circular: false # crops the image to make it circular
   
 selected_papers: false # includes a list of papers marked as "selected={true}"
