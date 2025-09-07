@@ -17,6 +17,7 @@
       "name": "The Jackson Laboratory",
       "position": "Computational Scientist",
       "url": "https://www.jax.org/research-and-faculty/data-science/",
+      "location": "Bar Harbor, Maine",
       "startDate": "2023-02",
       "endDate": "Present"
     },
@@ -24,8 +25,25 @@
       "name": "The Jackson Laboratory",
       "position": "Biostatistician",
       "url": "https://www.jax.org/research-and-faculty/data-science/",
+      "location": "Bar Harbor, Maine",
       "startDate": "2019-09",
       "endDate": "2023-01"
+    },
+    {
+      "name": "Boston University",
+      "position": "Postdoctoral Research Associate",
+      "url": "https://www.bu.edu/math/",
+      "location": "Boston, Massachusetts",
+      "startDate": "2018-07",
+      "endDate": "2019-06"
+    },
+    {
+      "name": "University of Michigan",
+      "position": "Postdoctoral Research Fellow",
+      "url": "https://lsa.umich.edu/stats",
+      "location": "Ann Arbor, Michigan",
+      "startDate": "2017-08",
+      "endDate": "2018-06"
     }
   ],
   "education": [
