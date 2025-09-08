@@ -7,7 +7,7 @@ related_posts: false
 ---
 
 <div class="text-center mt-3">
-    {% include figure.liquid loading="eager" path="assets/img/IMG_1103.jpg" class="img-fluid rounded z-depth-1" %}
+    <img src="assets/img/IMG_1103.jpg" style="width:25%;">
     <p class="mt-3">
         I was awarded a competitive scholarship to attend the “Statistical Methods, Developments, and Challenges in Geroscience” conference organized by the Indiana University School of Public Health in Indianapolis, IN. The meeting brought together a diverse group of postdocs, junior and senior faculty, and research scientists from demography, public health, pure statistics, genetics, psychometrics, epidemiology, and machine learning.
     </p>
